@@ -1,0 +1,288 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+/* slider */
+.slider{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    background-image: url(../images/slider2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.slider-div{
+    margin: auto;
+     padding: 15px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+
+}
+.slider-div h1{
+    text-transform: uppercase;
+    color: #fff;
+   padding: 6px;
+    font-size: 2rem;
+}
+.slider-div p{
+    font-size: 1rem;
+    color: white;
+    font-size: 1.25rem;
+    padding: 0px 0 20px 0;
+}
+.slider-div button{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: #17c0eb;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 0;
+    color: white;
+}
+
+/* about section ******************/
+.about-section{
+    width: 100%;
+    height: 85vh;
+    background-color:#17c0eb ;
+}
+.about-section .div-head{
+    /* border: 1px solid; */
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    margin: 60px 0 0 10px;
+}
+/* sediv */
+.about-section .img-div{
+    width: 30%;
+    height: 45vh;
+  float: left;
+  /* border: 1px solid red; */
+  margin: 50px 0 0 17%;
+}
+.about-section .img-div img{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+/* third div */
+.about-section .text-div{
+    width: 45%;
+    /* border: 1px solid; */
+    height: 45vh;
+    display: inline-block;
+    float: right;
+    margin: 50px  5% 0 0 ;
+}
+.about-section .text-div p{
+    font-size: 1rem;
+    padding: 20px;
+}
+.about-section .text-div button{
+    font-size: 1.20rem;
+    text-transform: capitalize;
+    color: white;
+    background-color:#000000c4;
+    padding: 8px 25px;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+/* section 3 */
+.gallery-section{
+    width: 100%;
+    height: 145vh;
+    background-color: #1e272e;
+}
+
+.gallery-section .div-head{
+    /* border: 1px solid; */
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    margin: 0px 0 0 10px;
+    padding-top: 50px;
+}
+/* button div */
+.gallery-section .buttondiv{
+    width: 50%;
+    /* border: 1px solid; */
+    margin: 40px auto;
+    text-align: center;
+    
+}
+.gallery-section .buttondiv button{
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding: 8px 18px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: none;
+    margin: 0 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.gallery-section .buttondiv .btn1{
+    background-color:#17c0eb ;
+    color: black;
+    border-radius: 5px;
+}
+/* gallery box */
+.gallery-section .gallery-box{
+    width: 90%;
+    /* border: 1px solid; */
+    margin: 0 auto;
+}
+
+.gallery-section .gallery-box  .gallery-div1{
+    /* border: 1px solid red; */
+    width: 20%;
+    float: left;
+    margin: 0 10px 0 70px;
+}
+.gallery-section .gallery-box  .gallery-div1 img{
+    width: 100%;
+    height: 35vh;
+    padding: 5px;
+}
+/* div2 */
+
+.gallery-section .gallery-box  .gallery-div2{
+    /* border: 1px solid red; */
+    width: 20%;
+    display: inline-block;
+    margin: 0 10px;
+}
+.gallery-section .gallery-box  .gallery-div2 img{
+    width: 100%;
+    height: 35vh;
+    padding: 5px;
+}
+/* 3div */
+
+.gallery-section .gallery-box  .gallery-div3{
+    /* border: 1px solid red; */
+    width: 20%;
+    display: inline-block;
+    margin: 0 10px;
+}
+.gallery-section .gallery-box  .gallery-div3 img{
+    width: 100%;
+    height: 35vh;
+    padding: 5px;
+}
+/* div4 */
+.gallery-section .gallery-box  .gallery-div4{
+    /* border: 1px solid red; */
+    width: 20%;
+    display: inline-block;
+    margin: 0 10px;
+}
+.gallery-section .gallery-box  .gallery-div4 img{
+    width: 100%;
+    height: 35vh;
+    padding: 5px;
+}
+
+/* form section */
+.form-section{
+  
+    width: 100%;
+    height: 95vh;
+    background-color:#17c0eb ;
+}
+.form-section .div-head{
+    /* border: 1px solid; */
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    padding: 60px 0 0 10px;
+    font-weight: 400;
+}
+.form-section .form-div{
+    width: 60%;
+    /* border: 1px solid; */
+    margin: 50px auto;
+    text-align: center;
+}
+.form-section .form-div input{
+    padding: 7px 40px;
+    margin: 10px;
+    border: none;
+    
+    
+}
+
+.form-section .form-div input::placeholder{
+    color: black;
+    text-transform: capitalize;
+}
+.form-section .form-div textarea{
+    padding: 7px 20px;
+    border: none;
+    
+
+}
+.form-section .form-div textarea::placeholder{
+    color: black;
+    text-transform: capitalize;
+
+}
+.form-section .form-div button{
+    padding: 10px 25px;
+    text-transform: capitalize;
+    color: white;
+    background-color: #1e272e;
+    cursor: pointer;
+    border: none;
+    margin: 12px 0;
+
+}
+/* icons */
+.icons-div{
+    width: 30%;
+    height: 10vh;
+    /* border: 1px solid red; */
+    margin: 30px auto;
+    text-align: center;
+    margin-top: 40px;
+   
+   
+}
+.icons-div i{
+    padding: 20px;
+    font-size: 1.50rem;
+    cursor: pointer;
+  
+}
+.icons-div i:hover{
+    color: white;
+}
+/* footer */
+
+footer{
+    width: 100%;
+    height: 8vh;
+    background-color: #1e272e;
+    color: white;
+    text-align: center;
+}
+footer p{
+    padding-top: 15px;
+}

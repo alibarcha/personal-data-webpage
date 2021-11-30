@@ -32,6 +32,14 @@
    padding: 6px;
     font-size: 2rem;
 }
+/* tramsform and transition */
+.slider-div h1:hover{
+    transform: scale(2);
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 2s;
+    /* transition-delay: 3s; */
+}
 .slider-div p{
     font-size: 1rem;
     color: white;
@@ -75,10 +83,19 @@
 }
 .about-section .img-div img{
     width: 100%;
-    height: 100%;
-    
-   
+    height: 100%;  
 }
+/* transform property */
+.about-section .img-div img:hover{
+    transform: scale(1.2);
+    border-radius: 20px;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+    
+}
+
+
 /* third div */
 .about-section .text-div{
     width: 45%;
@@ -155,12 +172,24 @@
     width: 20%;
     float: left;
     margin: 0 10px 0 70px;
+    overflow: hidden;
+   
 }
 .gallery-section .gallery-box  .gallery-div1 img{
     width: 100%;
     height: 35vh;
     padding: 5px;
 }
+
+/* transition */
+.gallery-section .gallery-box  .gallery-div1 img:hover{
+    transform: scale(1.2);
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: .1s;
+}
+
+
 /* div2 */
 
 .gallery-section .gallery-box  .gallery-div2{
@@ -168,12 +197,22 @@
     width: 20%;
     display: inline-block;
     margin: 0 10px;
+    overflow: hidden;
 }
 .gallery-section .gallery-box  .gallery-div2 img{
     width: 100%;
     height: 35vh;
     padding: 5px;
 }
+
+/* transition */
+.gallery-section .gallery-box  .gallery-div2 img:hover{
+    transform: scale(1.2);
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: .1s;
+}
+
 /* 3div */
 
 .gallery-section .gallery-box  .gallery-div3{
@@ -181,24 +220,43 @@
     width: 20%;
     display: inline-block;
     margin: 0 10px;
+    overflow: hidden;
 }
 .gallery-section .gallery-box  .gallery-div3 img{
     width: 100%;
     height: 35vh;
     padding: 5px;
 }
+/* transition */
+.gallery-section .gallery-box  .gallery-div3 img:hover{
+    transform: scale(1.2);
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: .1s;
+}
+
 /* div4 */
 .gallery-section .gallery-box  .gallery-div4{
     /* border: 1px solid red; */
     width: 20%;
     display: inline-block;
     margin: 0 10px;
+    overflow: hidden;
 }
 .gallery-section .gallery-box  .gallery-div4 img{
     width: 100%;
     height: 35vh;
     padding: 5px;
 }
+/* transition */
+.gallery-section .gallery-box  .gallery-div4 img:hover{
+    transform: scale(1.2);
+    
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: .1s;
+}
+
 
 /* form section */
 .form-section{
@@ -269,10 +327,12 @@
     padding: 20px;
     font-size: 1.50rem;
     cursor: pointer;
+    
   
 }
 .icons-div i:hover{
     color: white;
+    
 }
 /* footer */
 
